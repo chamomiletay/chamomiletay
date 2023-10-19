@@ -1,4 +1,32 @@
+body {
+    background-color: #ccb4ac;
+}
+
 .profile-pic{
     width: 250px;
     height: 250px;
+}
+
+.about-container{
+    font-family: 'Raleway', sans-serif;
+}
+
+.hello{
+    letter-spacing: .15rem;
+    display: inline-block;
+    padding: 10px;
+}
+
+.intro-name{
+    letter-spacing: .35rem;
+    color: #84a2d2;
+}
+
+.speech-bubble{
+    background-color: #ebe3d3;
+    margin: 10px;
+    padding: 5px;
+    width: 200px;
+    height: 120px;
+    border-radius: 10%;
 }

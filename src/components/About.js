@@ -4,10 +4,19 @@ import './About.css'
 
 const About = () => {
     return(
-        <div>
-            <p>Hey, I'm Tay!</p>
+        <div className='about-container'>
 
-            <img className='profile-pic' src={tayIcon} alt='profile photo'></img>
+            <div className='speech-bubble'>
+
+                <h2><span className='hello'>Hello,</span>
+                    <br></br> 
+                    <i className='intro-name'>I'm Tay!</i>
+                </h2>
+                
+            </div>
+            
+
+            <img className='profile-pic' src={tayIcon} alt='profile'></img>
 
         </div>
         
