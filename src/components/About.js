@@ -1,9 +1,16 @@
 //--- imports! ---
-
+import tayIcon from './images/tay_profile.png'
+import './About.css'
 
 const About = () => {
     return(
-        <div>Hey, I'm Tay!</div>
+        <div>
+            <p>Hey, I'm Tay!</p>
+
+            <img className='profile-pic' src={tayIcon} alt='profile photo'></img>
+
+        </div>
+        
     )
 }
 
