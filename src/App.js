@@ -5,9 +5,9 @@ function App() {
     <div className="App">
       {/* Display header below*/}
       {/* <Header /> */}
-      
-      <h2>Test</h2>
-      <p>Testing 123</p>
+
+      <h2>Currently under construction</h2>
+      <p>Will be back momentarily!</p>
     </div>
   );
 }
