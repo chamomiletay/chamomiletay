@@ -15,11 +15,21 @@ body {
     letter-spacing: .15rem;
     display: inline-block;
     padding: 10px;
+    text-shadow: 
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff;
 }
 
 .intro-name{
     letter-spacing: .35rem;
     color: #84a2d2;
+    text-shadow: 
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff;
 }
 
 .speech-bubble{
