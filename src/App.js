@@ -15,7 +15,7 @@ function App() {
       
     {/* Display 'About' component below */}
       <Intro/>
-      <About />
+      {/* <About /> */}
 
     </div>
   );
