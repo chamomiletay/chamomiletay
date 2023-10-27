@@ -1,8 +1,8 @@
 //--- imports! ---
 import tayIcon from './images/tay_profile.png'
-import './About.css'
+import './Intro.css'
 
-const About = () => {
+const Intro = () => {
     return(
         <div className='about-container'>
 
@@ -23,4 +23,4 @@ const About = () => {
     )
 }
 
-export default About
+export default Intro

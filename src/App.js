@@ -1,7 +1,7 @@
 //--- imports! ---
 import './App.css';
 import Header from './components/Header';
-import About from './components/About';
+import Intro from './components/Intro';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <p>Will be back momentarily!</p>
       
     {/* Display 'About' component below */}
-      <About/>
+      <Intro/>
 
     </div>
   );
