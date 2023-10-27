@@ -2,6 +2,7 @@
 import './App.css';
 import Header from './components/Header';
 import Intro from './components/Intro';
+import About from './components/About';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       
     {/* Display 'About' component below */}
       <Intro/>
+      <About />
 
     </div>
   );
