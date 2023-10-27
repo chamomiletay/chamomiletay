@@ -3,7 +3,7 @@
 const Header = () => {
     return(
         <div>
-            <p>Taylor Lee | Front-End Engineer | Illustrator </p>
+            <p>Taylor Lee | Front-End Engineer | Designer </p>
         </div>
     )
 }
