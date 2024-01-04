@@ -4,8 +4,9 @@ import './Intro.css'
 
 const Intro = () => {
     return(
-        <div>
+        <div className='flex-container'>
 
+            {/* introductory speech bubble */}
             <div id='speech-bubble'>
 
                 <h2><span className='hello'>Hello,</span>
@@ -15,12 +16,16 @@ const Intro = () => {
                 
             </div>
             
-            <img id='profile-pic' src={tayIcon} alt='profile'></img>
-
-
+            {/* profile photo */}
+            <div id='profile-pic'>
+                <img  src={tayIcon} alt='profile'></img>
+            </div>
+            
+            {/* about me description */}
             <div id='description'>
 
-                <p id='description'>
+                {/* <p id='description'> */}
+                <p>
                 My name is Taylor, and I am passionate about storytelling. As a detail-oriented front-end engineer and designer, I truly enjoy curating responsive, efficient, and cozy spaces. My toolkit includes Javascript, ReactJS, Tailwind CSS, and other libraries and frameworks.
 
                 <br/>
