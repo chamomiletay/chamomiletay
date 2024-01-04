@@ -4,7 +4,7 @@ import './Intro.css'
 
 const Intro = () => {
     return(
-        <div className='about-container'>
+        <div>
 
             <div id='speech-bubble'>
 

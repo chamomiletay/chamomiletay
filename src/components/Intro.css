@@ -1,26 +1,29 @@
 body {
     background-color: #ccb4ac;
+    font-family: 'Raleway', sans-serif;
     display: flex;
-    justify-content: center;
 }
 
 
 #profile-pic{
     width: 250px;
     height: 250px;
-    margin: 0 60px;
-    display: block;
+    margin: 0 100px;
+    display: flex;
+    margin-right: auto;
 }
 
-.about-container{
-    font-family: 'Raleway', sans-serif;
+/* .about-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
     padding: 10px;
     margin: 0 50px;
-}
+} */
 
 .hello{
     letter-spacing: .15rem;
-    display: inline-block;
     padding: 10px;
     text-shadow: 
     -1px -1px 0 #fff,
@@ -41,12 +44,14 @@ body {
 
 #speech-bubble{
     background-color: #ebe3d3;
-    margin-left: 80px;
+    margin: 0 125px;
+    margin-right: auto;
     margin-bottom: 15px;
     padding: 5px;
     width: 200px;
     height: 120px;
     border-radius: 10%;
+    line-height: 250%;
 }
 
 #description{
